@@ -1,0 +1,26 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "node-mvc",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon node server.js",
+    "start:prod": "NODE_ENV=production nodemon node server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "rk",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "kill-port": "^1.6.1",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
